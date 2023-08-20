@@ -3,7 +3,7 @@ fun main() {
 
   var fahrenheit = readLine().toString().toDouble()
 
-  var celsius =  (fahrenheit - 32)*5/9;
+  var celsius =  (fahrenheit - 32)*5/9
 
   print("$fahrenheit graus fahrenheit em celsius são: $celsius")
 }

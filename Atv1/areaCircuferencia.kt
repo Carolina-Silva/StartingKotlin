@@ -4,9 +4,9 @@ fun main() {
   
   var raio = readLine().toString().toDouble()
   
-  var n = 3.14159;
+  var n = 3.14159
 
-  var area =  n * (raio*raio);
+  var area =  n * (raio*raio)
 
 
   print("A area do circulo é: $area")
