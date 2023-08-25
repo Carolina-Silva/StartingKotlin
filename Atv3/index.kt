@@ -42,7 +42,7 @@ fun main() {
   print("Informe o código da operação a ser realizada:")
   var cd = readLine().toString().toInt()
   
-   val operacao = when(cd) {
+   when(cd) {
         1 -> fatorial()
         2 -> quadrado()
         3 -> volume()
